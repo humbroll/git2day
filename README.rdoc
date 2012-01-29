@@ -1,0 +1,11 @@
+== {Bundler}[http://gembundler.com/]
+=== 설치 및 초기 설정
+1. bundler 설치 : gem install bundler -v 1.0.21 --no-ri --no-rdoc
+2. gem 설치 : bundle install --local
+3. 설치후 rails프로젝트 내에서의 ruby, rake, rails등의 명령어 앞에는 bundle exec를 붙인다. 
+=== 새로운 Gem 추가
+1. Gemfile 에 추가 
+2. bundle install
+3. bundle pacakge
+=== 트러블슈팅 
+* 젬 설치 경로가 레일즈 프로젝트 내부로 잡힌다 : ./bundle/config 파일을 제거하고 다시 시도 
