@@ -19,4 +19,4 @@ INSERT LINE _ origin
 
 
 
-
+@streams = result[:return_value]["mailet_message_list"] if result[:result]
